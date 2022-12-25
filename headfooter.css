@@ -1,0 +1,47 @@
+/*  Head start here */
+body{
+    padding:0px 30px;
+}
+.head,footer{
+    display:flex;
+}
+.logo{
+    width:70px;
+    height:70px;
+    border-radius:90%;
+}
+h1{
+    color:  rgb(44, 55, 75);
+    padding-left:15px;
+}
+.nav-bar{
+    text-decoration: none;
+    color: rgb(44, 55, 75);
+    font-size:27px;
+    margin-left:40px;
+    
+}
+.nav-bar:hover{
+    border-top: 2px red solid; 
+}
+li{
+    list-style: none;
+}
+nav{
+    margin-left:30%;
+    padding-top:40px;
+}
+/*  Head End here */
+
+/*  Footer start here */
+footer{
+    background-color: rgb(44, 55, 75);
+    color:white;
+    justify-content:space-between;
+    padding:0px 10px;
+}
+.copy-right{
+    padding-top: 80px; 
+    font-size: 15px;
+}
+/*  Footer end here */
